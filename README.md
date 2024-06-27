@@ -1,6 +1,7 @@
 # gitTask
-Allows the user to input their username and let the program read their name out with simple print
-statement layered above it
-print("Git is awesome!")
-user_input = input("Input your username: ")
-print(f"Hello {user_input}")
+cd Users/yadyad/project
+git init
+git add .
+git commit -m "first-commit"
+git remote add origin https://github.com/pringleshowboi/gitTask.git
+git push -u origin main
